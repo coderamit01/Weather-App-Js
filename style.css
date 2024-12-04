@@ -22,6 +22,9 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+.weather {
+  display: none;
+}
 .weather-img {
   width: 150px;
   height: auto;
@@ -89,6 +92,13 @@ body {
   border-radius: 4px;
 }
 
+.error {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  margin-top: 5px;
+  display: none;
+}
 
 @media screen and (max-width: 767px) {
   .flex {
